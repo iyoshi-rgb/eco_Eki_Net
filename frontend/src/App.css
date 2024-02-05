@@ -1,147 +1,112 @@
 .home {
 color: 'white';
- font-size: 15;
+ font-size: 96;
+ font-family: 'Inter';
+ font-weight: '400';
+ word-wrap: 'break-word'
+}
+.maru{
+color: '#69955A';
+ font-size: 50;
  font-family: 'Inter';
  font-weight: '400';
  word-wrap: 'break-word'
 }
 .imformation{
-color: 'white';
- font-size: 15;
+color: 'black';
+ font-size: 50;
  font-family: 'Inter';
  font-weight: '400';
  word-wrap: 'break-word'
 }
-.point{
-color: 'white';
- font-size: 15;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.CO2{
-color: 'white';
- font-size: 15;
+.maru{
+color: '#69955A';
+ font-size: 50;
  font-family: 'Inter';
  font-weight: '400';
  word-wrap: 'break-word'
 }
 .kutikomi{
-color: 'white';
- font-size: 15;
+color: 'black';
+ font-size: 50;
  font-family: 'Inter';
  font-weight: '400';
  word-wrap: 'break-word'
 }
-.home{
-color: 'white';
- font-size: 35;
+.maru{
+color: '#69955A';
+ font-size: 50;
+ font-family: 'Inter';
+ font-weight: '400';
+ word-wrap: 'break-word'
+}
+.co2{
+color: 'black';
+ font-size: 50;
+ font-family: 'Inter';
+ font-weight: '400';
+ word-wrap: 'break-word'
+}
+.maru{
+color: '#69955A';
+ font-size: 50;
+ font-family: 'Inter';
+ font-weight: '400';
+ word-wrap: 'break-word'
+}
+.point{
+color: 'black';
+ font-size: 50;
  font-family: 'Inter';
  font-weight: '400';
  word-wrap: 'break-word'
 }
 .ekikensaku{
-color: 'white';
- font-size: 40;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
+  color: 'white';
+font-size: 40;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
-.ekirankingu{
-color: 'white';
- font-size: 40;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
-}
-.kutikomikaku{
-color: 'white';
- font-size: 26;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
-}
-.timeline{
-color: 'white';
- font-size: 26;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
-}
-.co2{
-color: 'white';
- font-size: 40;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
+.ekiranking{
+  color: 'white';
+font-size: 40;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
 .pointtameru{
-color: 'white';
- font-size: 27;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
+  color: 'white';
+font-size: 27;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
 .pointtukau{
-color: 'white';
- font-size: 27;
- font-family: 'jsMath-cmbx10';
- font-weight: '700';
- word-wrap: 'break-word'
+  color: 'white';
+font-size: 27;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
-.maru{
-color: '#69955A';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
+.kutikomikaku{
+  color: 'white';
+font-size: 40;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
-.imformation{
-color: 'black';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.maru{
-color: '#69955A';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.point{
-color: 'black';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.maru{
-color: '#69955A';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.kutikomi{
-color: 'black';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
-}
-.maru{
-color: '#69955A';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
+.timeline{
+  color: 'white';
+font-size: 36;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
 .co2{
-color: 'black';
- font-size: 20;
- font-family: 'Inter';
- font-weight: '400';
- word-wrap: 'break-word'
+  color: 'white';
+font-size: 48;
+font-family: 'jsMath-cmbx10';
+font-weight: '700';
+word-wrap: 'break-word'
 }
