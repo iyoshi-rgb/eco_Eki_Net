@@ -17,51 +17,51 @@ function App() {
   },[])
 
   return (
-    <div style="width: 100%; height: 100%; position: relative; background: white">
-    <div style="width: 430px; height: 86px; left: 0px; top: 846px; position: absolute; background: #5EE030">
-        <div style="width: 86px; height: 0px; left: 169px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 3px white solid"></div>
-        <div style="width: 86px; height: 0px; left: 255px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 3px white solid"></div>
-        <div style="width: 86px; height: 0px; left: 342px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 3px white solid"></div>
-        <img style="width: 63px; height: 63px; left: 10px; top: 18px; position: absolute" src="https://via.placeholder.com/63x63" />
-        <img style="width: 63px; height: 63px; left: 269px; top: 20px; position: absolute" src="https://via.placeholder.com/63x63" />
-        <img style="width: 60px; height: 60px; left: 183px; top: 19px; position: absolute" src="https://via.placeholder.com/60x60" />
-        <img style="width: 60px; height: 60px; left: 99px; top: 21px; position: absolute" src="https://via.placeholder.com/60x60" />
-        <img style="width: 60px; height: 60px; left: 359px; top: 21px; position: absolute" src="https://via.placeholder.com/60x60" />
-        <div style="width: 54px; height: 15px; left: 19px; top: 4px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">ホーム</div>
-        <div style="width: 54px; height: 15px; left: 105px; top: 3px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">駅情報<br/></div>
-        <div style="width: 65px; height: 15px; left: 185px; top: 2px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">ポイント</div>
-        <div style="width: 78px; height: 15px; left: 350px; top: 3px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">CO2排出量</div>
-        <div style="width: 49px; height: 15px; left: 280px; top: 3px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">口コミ</div>
+<div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
+    <div style={{width: 430, height: 86, left: 0, top: 846, position: 'absolute', background: '#5EE030'}}>
+        <div style={{width: 86, height: 0, left: 169, top: 0, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '3px white solid'}}></div>
+        <div style={{width: 86, height: 0, left: 255, top: 0, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '3px white solid'}}></div>
+        <div style={{width: 86, height: 0, left: 342, top: 0, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '3px white solid'}}></div>
+        <img style={{width: 63, height: 63, left: 10, top: 18, position: 'absolute'}} src="https://via.placeholder.com/63x63" />
+        <img style={{width: 63, height: 63, left: 269, top: 20, position: 'absolute'}} src="https://via.placeholder.com/63x63" />
+        <img style={{width: 60, height: 60, left: 183, top: 19, position: 'absolute'}} src="https://via.placeholder.com/60x60" />
+        <img style={{width: 60, height: 60, left: 99, top: 21, position: 'absolute'}} src="https://via.placeholder.com/60x60" />
+        <img style={{width: 60, height: 60, left: 359, top: 21, position: 'absolute'}} src="https://via.placeholder.com/60x60" />
+        <div style={{width: 54, height: 15, left: 19, top: 4, position: 'absolute', color: 'white', fontSize: 15, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>ホーム</div>
+        <div style={{width: 54, height: 15, left: 105, top: 3, position: 'absolute', color: 'white', fontSize: 15, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>駅情報<br/></div>
+        <div style={{width: 65, height: 15, left: 185, top: 2, position: 'absolute', color: 'white', fontSize: 15, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>ポイント</div>
+        <div style={{width: 78, height: 15, left: 350, top: 3, position: 'absolute', color: 'white', fontSize: 15, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>CO2排出量</div>
+        <div style={{width: 49, height: 15, left: 280, top: 3, position: 'absolute', color: 'white', fontSize: 15, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>口コミ</div>
     </div>
-    <div style="width: 86px; height: 0px; left: 83px; top: 846px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 3px white solid"></div>
-    <div style="width: 430px; height: 79px; padding-top: 19px; padding-bottom: 20px; left: 0px; top: 0px; position: absolute; background: #5EE030; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 107px; height: 40px; color: white; font-size: 35px; font-family: Inter; font-weight: 400; word-wrap: break-word">ホーム</div>
+    <div style={{width: 86, height: 0, left: 83, top: 846, position: 'absolute', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '3px white solid'}}></div>
+    <div style={{width: 430, height: 79, paddingTop: 19, paddingBottom: 20, left: 0, top: 0, position: 'absolute', background: '#5EE030', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 107, height: 40, color: 'white', fontSize: 35, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>ホーム</div>
     </div>
-    <div style="width: 351px; height: 90px; padding-left: 55px; padding-right: 55px; padding-top: 26px; padding-bottom: 26px; left: 40px; top: 135px; position: absolute; background: #5EE030; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #69955A solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 241px; height: 38px; color: white; font-size: 40px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">駅を検索する</div>
+    <div style={{width: 351, height: 90, paddingLeft: 55, paddingRight: 55, paddingTop: 26, paddingBottom: 26, left: 40, top: 135, position: 'absolute', background: '#5EE030', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #69955A solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 241, height: 38, color: 'white', fontSize: 40, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>駅を検索する</div>
     </div>
-    <div style="width: 351px; height: 90px; padding-left: 55px; padding-right: 55px; padding-top: 28px; padding-bottom: 28px; left: 40px; top: 242px; position: absolute; background: #5EE030; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #69955A solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 241px; height: 34px; color: white; font-size: 40px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">駅ランキング</div>
+    <div style={{width: 351, height: 90, paddingLeft: 55, paddingRight: 55, paddingTop: 28, paddingBottom: 28, left: 40, top: 242, position: 'absolute', background: '#5EE030', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #69955A solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 241, height: 34, color: 'white', fontSize: 40, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>駅ランキング</div>
     </div>
-    <div style="width: 166px; height: 90px; padding-left: 5px; padding-right: 5px; left: 40px; top: 566px; position: absolute; background: #FFED48; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #D3C227 solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 156px; height: 24px; color: white; font-size: 26px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">口コミを書く</div>
+    <div style={{width: 166, height: 90, paddingLeft: 5, paddingRight: 5, left: 40, top: 566, position: 'absolute', background: '#FFED48', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #D3C227 solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 156, height: 24, color: 'white', fontSize: 26, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>口コミを書く</div>
     </div>
-    <div style="width: 166px; height: 90px; padding-left: 6px; padding-right: 5px; left: 225px; top: 566px; position: absolute; background: #FFED48; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #D3C227 solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 155px; height: 21px; color: white; font-size: 26px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">タイムライン</div>
+    <div style={{width: 166, height: 90, paddingLeft: 6, paddingRight: 5, left: 225, top: 566, position: 'absolute', background: '#FFED48', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #D3C227 solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 155, height: 21, color: 'white', fontSize: 26, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>タイムライン</div>
     </div>
-    <div style="width: 351px; height: 90px; padding-left: 67px; padding-right: 67px; padding-top: 28px; padding-bottom: 28px; left: 40px; top: 727px; position: absolute; background: #40DAFC; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #17ABCC solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 217px; height: 34px; color: white; font-size: 40px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">CO2排出量</div>
+    <div style={{width: 351, height: 90, paddingLeft: 67, paddingRight: 67, paddingTop: 28, paddingBottom: 28, left: 40, top: 727, position: 'absolute', background: '#40DAFC', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #17ABCC solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 217, height: 34, color: 'white', fontSize: 40, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>CO2排出量</div>
     </div>
-    <div style="width: 166px; height: 121px; padding-left: 28px; padding-right: 28px; padding-top: 37px; padding-bottom: 37px; left: 40px; top: 384px; position: absolute; background: #FEA623; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #D2840F solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 110px; height: 47px; color: white; font-size: 27px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">ポイントをためる</div>
+    <div style={{width: 166, height: 121, paddingLeft: 28, paddingRight: 28, paddingTop: 37, paddingBottom: 37, left: 40, top: 384, position: 'absolute', background: '#FEA623', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #D2840F solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 110, height: 47, color: 'white', fontSize: 27, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>ポイントをためる</div>
     </div>
-    <div style="width: 166px; height: 121px; padding-left: 28px; padding-right: 28px; padding-top: 37px; padding-bottom: 37px; left: 225px; top: 384px; position: absolute; background: #FEA623; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px; overflow: hidden; border: 2px #D2840F solid; justify-content: center; align-items: center; display: inline-flex">
-        <div style="width: 110px; height: 47px; color: white; font-size: 27px; font-family: jsMath-cmbx10; font-weight: 700; word-wrap: break-word">ポイントを使う</div>
+    <div style={{width: 166, height: 121, paddingLeft: 28, paddingRight: 28, paddingTop: 37, paddingBottom: 37, left: 225, top: 384, position: 'absolute', background: '#FEA623', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, overflow: 'hidden', border: '2px #D2840F solid', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div style={{width: 110, height: 47, color: 'white', fontSize: 27, fontFamily: 'jsMath-cmbx10', fontWeight: '700', wordWrap: 'break-word'}}>ポイントを使う</div>
     </div>
-    <div style="width: 148px; height: 29px; left: 25px; top: 100px; position: absolute"><span style="color: #69955A; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">● </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">駅情報</span></div>
-    <div style="width: 148px; height: 29px; left: 25px; top: 349px; position: absolute"><span style="color: #69955A; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">● </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">ポイント</span></div>
-    <div style="width: 148px; height: 29px; left: 25px; top: 521px; position: absolute"><span style="color: #69955A; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">● </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">口コミ</span></div>
-    <div style="width: 148px; height: 29px; left: 25px; top: 686px; position: absolute"><span style="color: #69955A; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">● </span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">CO2排出量</span></div>
+    <div style={{width: 148, height: 29, left: 25, top: 100, position: 'absolute'}}><span style="color: '#69955A', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">● </span><span style="color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">駅情報</span></div>
+    <div style={{width: 148, height: 29, left: 25, top: 349, position: 'absolute'}}><span style="color: '#69955A', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">● </span><span style="color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">ポイント</span></div>
+    <div style={{width: 148, height: 29, left: 25, top: 521, position: 'absolute'}}><span style="color: '#69955A', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">● </span><span style="color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">口コミ</span></div>
+    <div style={{width: 148, height: 29, left: 25, top: 686, position: 'absolute'}}><span style="color: '#69955A', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">● </span><span style="color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'">CO2排出量</span></div>
 </div>
   );
 }
