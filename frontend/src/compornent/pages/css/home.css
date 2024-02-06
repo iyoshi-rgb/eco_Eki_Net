@@ -1,0 +1,69 @@
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 35%;
+}
+
+span{
+    color:#47d812 ;
+}
+
+button {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    line-height: 2.5;
+    padding: 0px 20px;
+    font-size: 25px;
+    font-family: 'jsMath-cmbx10';
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.Green{
+    width: 50%;
+    height: 80px;
+    background-color: #5EE030;
+}
+
+.Green:hover{
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Yellow {
+    width: 27%;
+    height: 80px;
+    background-color: #FFED48;
+}
+.Yellow:hover{
+    opacity: 0.5;
+}
+
+
+.Orange {
+    width: 25%;
+    height: 140px;
+    font-size: 15px;
+    background-color: #FEA623;
+    justify-content: center;
+}
+.Orange:hover{
+    opacity: 0.5;
+}
+.Blue {
+    width: 50%;
+    height: 80px;
+    background-color:#40DAFC;
+}
+.Blue:hover{
+    opacity: 0.5;
+}
+
