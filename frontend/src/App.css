@@ -1,38 +1,76 @@
-.App {
+.home{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-right: 35%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span{
+  color:#47d812 ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  margin-bottom: 10px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  line-height: 2.5;
+  padding: 0px 20px;
+  font-size: 25px;
+  font-family: 'jsMath-cmbx10';
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.Green{
+  width: 50%;
+  height: 80px;
+  background-color: #5EE030;
+}
+
+.Green:hover{
+  opacity: 0.5;
+}
+
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Yellow {
+  width: 27%;
+  height: 80px;
+  background-color: #FFED48;
+}
+.Yellow:hover{
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Orange {
+  width: 25%;
+  height: 140px;
+  font-size: 15px;
+  background-color: #FEA623;
+  justify-content: center;
 }
+.Orange:hover{
+  opacity: 0.5;
+}
+
+
+.Blue {
+  width: 50%;
+  height: 80px;
+  background-color:#40DAFC;
+}
+.Blue:hover{
+  opacity: 0.5;
+}
+
+
