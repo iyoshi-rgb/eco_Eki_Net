@@ -1,7 +1,19 @@
 import './App.css';
+
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+
+
 import Header from './compornent/base/header';
 import Footer from './compornent/base/footer';
 
+import Home from './compornent/pages/views/home'
+import Search from './compornent/pages/views/search';
+import Ranking from './compornent/pages/views/ranking';
+import Stock from './compornent/pages/views/pointStock';
+import Use from './compornent/pages/views/pointUse';
+import Write from './compornent/pages/views/kutikomiWrite';
+import TimeLine from './compornent/pages/views/timeline';
+import Co2 from './compornent/pages/views/co2';
 //1．useStateとuseEffectをインポート
 //import { useState,useEffect } from 'react';
 
@@ -23,29 +35,18 @@ function App() {
   return (
     <div className='home'>
     <Header />
-    <p><span>●</span>駅情報</p>
-    <button  className="Green" type='button'>駅を検索する</button>
-    <br></br>
-    <button className='Green' type='button'>駅ランキング</button>
-    <br></br>
-
-    <p><span>●</span>ポイント</p>
-    <div className='container'>
-    <button className='Yellow' type='button'>ためる</button>
-    <button className='Yellow' type='button'>使う</button>
-    <br></br>
-    </div>
-
-    <p><span>●</span>口コミ</p>
-    <div className='container'>
-    <button className='Orange' type='button'>口コミを書く</button>
-    <button className='Orange' type='button'>タイムライン</button>
-    <br></br>
-    </div>
-
-
-    <p><span>●</span>CO2排出量</p>
-    <button className='Blue' type='button'>CO2排出量</button>
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/search' element={<Search />}/>
+          <Route path='/ranking' element={<Ranking />}/>
+          <Route path='/stock' element={<Stock />}/>
+          <Route path='/use' element={<Use />}/>
+          <Route path='/write' element={<Write />}/>
+          <Route path='/timeline' element={<TimeLine />}/>
+          <Route path='/co2' element={<Co2 />}/>
+        </Routes>
+      </Router>
     <Footer />
   </div>
   );
