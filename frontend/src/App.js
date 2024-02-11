@@ -7,12 +7,11 @@ import Header from './compornent/base/header';
 import Footer from './compornent/base/footer';
 
 import Home from './compornent/pages/views/home'
-import Reviews from './compornent/pages/views/search';
+import TimeLine from './compornent/pages/views/timeline';
 import Ranking from './compornent/pages/views/ranking';
 import Stock from './compornent/pages/views/pointStock';
 import Use from './compornent/pages/views/pointUse';
 import Write from './compornent/pages/views/kutikomiWrite';
-import TimeLine from './compornent/pages/views/timeline';
 import Co2 from './compornent/pages/views/co2';
 //1．useStateとuseEffectをインポート
 //import { useState,useEffect } from 'react';
@@ -38,7 +37,6 @@ function App() {
     <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/search' element={<Reviews />}/>
           <Route path='/ranking' element={<Ranking />}/>
           <Route path='/stock' element={<Stock />}/>
           <Route path='/use' element={<Use />}/>
