@@ -83,7 +83,7 @@ function Co2(){
                     <option key={key} value={key}>{value}</option>
                 ))}
             </select>
-        </div>
+</div>
         
         {response && (
         <div>    

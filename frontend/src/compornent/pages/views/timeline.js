@@ -42,11 +42,7 @@ function TimeLine() {
     
     return (
         <div>
-        <div className='button-container'>
-            <button className='button' onClick={() => handleButtonClick('総合')}>総合</button>
-            <button className='button' onClick={() => handleButtonClick('烏丸線')}>烏丸線</button>
-            <button className='button' onClick={() => handleButtonClick('最寄り駅')}>最寄り駅</button>
-        </div>
+            
         {selectedButtonText &&(
             <div className='selected-button-text'>
                 {selectedButtonText}
