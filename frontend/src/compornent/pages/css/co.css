@@ -1,0 +1,73 @@
+/* co.css */
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 35%;
+}
+
+span{
+    color:#4aa529 ;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    line-height: 2.5;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: 'jsMath-cmbx10';
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.Green{
+    width: 50%;
+    height: 80px;
+    background-color: #4aa529;
+}
+
+.Green:hover{
+    opacity: 0.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%;
+}
+
+select {
+    margin: 10px 0; /* 上下にマージンを設定し、縦並びにする */ /* selectの幅を設定 */
+}
+
+.response-card {
+    background-color: #b3e5fc; /* 水色の背景 */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px; /* カードの角を丸くする */
+    display: flex;
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 中央揃え */
+    width: 140px; /* カードの幅を設定 */
+}
+
+.center{
+    text-align: center;
+}
+
+.Blue {
+    width: 50%;
+    height: 80px;
+    background-color:#3d8190;
+}
+.Blue:hover{
+    opacity: 0.5;
+}
+
+
+  /* 応答データ(<p>タグ)のスタイリングは、response-cardクラスによって既に中央揃えになっています */

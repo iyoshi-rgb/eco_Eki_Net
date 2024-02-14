@@ -1,0 +1,36 @@
+/* Write.css */
+.write-container {
+    margin-top: 2%;
+    background-color: #FBFCE4;
+    padding-left: 15%; /* 左側に15%の余白 */
+}
+
+.write-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 子要素を左揃えにする */
+}
+
+.write-form select,
+.write-form label {
+    margin-bottom: 10px; /* selectとlabelの間隔 */
+}
+
+.write-textarea {
+    width: 85%; /* テキストエリアの幅 */
+    height: 150px; /* テキストエリアの高さ */
+    background-color: #f0f0f0; /* テキストエリアの背景色 */
+    border: 1px solid #ccc; /* テキストエリアのボーダー */
+    padding: 10px; /* テキストエリア内の余白 */
+    margin-bottom: 20px; /* テキストエリアとボタンの間隔 */
+}
+
+.submit-button {
+    background-color: #69955A; /* ボタンの背景色 */
+    color: white; /* ボタンのテキスト色 */
+    border: none; /* ボーダーを消す */
+    padding: 10px 20px; /* ボタン内の余白 */
+    cursor: pointer; /* ホバー時のカーソル形状 */
+    font-size: 0.8rem; /* フォントサイズ */
+    margin-left: 85%!important;
+}

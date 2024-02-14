@@ -67,3 +67,11 @@ button {
     opacity: 0.5;
 }
 
+.nowLocation-text {
+    background-color: #69955A; /* 背景色を設定 */
+    color: white; /* 文字色を白に設定 */
+    padding: 10px; /* パディングを設定 */ /* 上マージンを設定 */
+    text-align: center; /* テキストを中央揃えに設定 */
+    margin-top: 5px;
+
+}

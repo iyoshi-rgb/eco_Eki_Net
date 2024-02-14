@@ -1,0 +1,93 @@
+.buttons-container {
+    display: flex; /* Flexboxを有効化 */
+    justify-content: space-between; /* ボタン間に等間隔を設定 */
+    width: 100%; /* 横幅を親要素いっぱいに設定 */
+    padding: 0 20px;/* コンテナの左右にパディングを設定（必要に応じて調整） */
+    
+    }
+
+.button {
+    flex-grow: 1; /* 各ボタンが利用可能なスペースを均等に埋めるように設定 */
+    /*margin:0,10px;*/ 
+    cursor: pointer;
+    background-color: #F4F4F3;
+    color: #2a4620;/* ボタン間の隙間を設定 */
+    margin-top: 4px;
+}
+
+.button:hover{
+    background-color: #69955A;
+}
+
+.button:first-child {
+    margin-left: 0; /* 最初のボタンの左マージンを削除 */
+}
+
+.button:last-child {
+    margin-right: 0; /* 最後のボタンの右マージンを削除 */
+}
+
+.selected-button-text {
+    background-color: #69955A; /* 背景色を設定 */
+    color: white; /* 文字色を白に設定 */
+    padding: 10px; /* パディングを設定 */ /* 上マージンを設定 */
+    text-align: center; /* テキストを中央揃えに設定 */
+}
+
+.review-card {
+    background-color: #FBFCE4; /* 背景色を灰色に設定 */
+    margin: 10px 10px; /* 上下の余白 */
+    padding: 20px; /* 内側の余白 */
+    border-radius: 5px; /* 角丸の設定 */
+    list-style: none;
+}
+
+.review-card h3, .review-card p {
+    margin: 0; /* 上下の余白をなくす */
+    padding: 5px 0; /* 段落間の余白 */
+}
+
+.review-card h3 {
+    color: #333; /* 駅名の文字色 */
+    font-size: 1.2em; 
+    text-align: left;
+}
+
+.review-card p {
+    color: #666; /* 口コミ内容の文字色 */
+    text-align: left; /* 左揃え */
+}
+
+
+.add-review-button {
+    display: flex;
+    margin-right: 0;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #808080; /* 灰色 */
+    border: none;
+    cursor: pointer;
+    position: relative; /* プラス記号の位置調整のため */
+}
+
+.add-review-button::before, .add-review-button::after {
+    content: '';
+    position: absolute;
+    background-color: white; /* プラス記号の色 */
+}
+
+.add-review-button::before {
+    height: 2px; /* 縦線の太さ */
+    width: 25px; /* 縦線の長さ */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.add-review-button::after {
+    width: 2px; /* 横線の太さ */
+    height: 25px; /* 横線の長さ */
+    left: 50%;
+    transform: translateX(-50%);
+}

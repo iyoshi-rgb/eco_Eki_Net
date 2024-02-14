@@ -1,0 +1,41 @@
+.card {
+    background-color: #a8e3f7; /* 水色 */
+    margin: 20px 0; /* 上下の余白 */
+    padding: 20px;
+    border-radius: 8px; /* カードの角を丸める */
+}
+
+.card-green {
+    background-color: #90ee90; /* 薄緑 */
+    margin: 20px 0; /* 上下の余白 */
+    padding: 20px;
+    border-radius: 8px; /* カードの角を丸める */
+    display: flex;
+    justify-content: space-between; /* コンテンツをスペースで分けて配置 */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column; /* コンテンツを縦に並べる */
+}
+
+.card-image {
+    width: 100px; /* 画像の幅 */
+    height: auto; /* 画像の高さは自動調整 */
+    margin: 10px 0; /* 上下の余白 */
+}
+
+.co2-reduction {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.points {
+    font-size: 1.5rem;
+    text-align: center; /* 中央揃え */
+}
+
+.point-difference {
+    font-size: 1rem;
+    font-weight: bold;
+}

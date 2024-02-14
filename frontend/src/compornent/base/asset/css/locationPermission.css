@@ -1,0 +1,23 @@
+/* locationPermission.css */
+
+p {
+    text-align: center; /* テキストを中央揃えにします */
+    margin-bottom: 20px; /* <p>タグの下にスペースを作ります */
+}
+
+.button {
+    width: 15%;
+    display: block; /* ボタンをブロック要素にして、幅いっぱいに広がるようにします */
+    margin: 10px auto; /* 上下に10pxのマージンを設定し、自動で左右のマージンを設定して中央揃えにします */
+    padding: 10px 20px; /* ボタンの内側のパディングを設定します */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.center{
+    text-align: center;
+}
