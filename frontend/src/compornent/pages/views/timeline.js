@@ -42,6 +42,17 @@ function TimeLine() {
     
     return (
         <div>
+            <div className="button-container">
+                {['総合', '烏丸線', '最寄り駅'].map((text) => (
+                    <button
+                        key={text}
+                        className={`button ${selectedButtonText === text ? 'selected' : ''}`}
+                        onClick={() => handleButtonClick(text)}
+                    >
+                        {text}
+                    </button>
+                ))}
+            </div>
             
         {selectedButtonText &&(
             <div className='selected-button-text'>
