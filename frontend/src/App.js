@@ -8,7 +8,7 @@ import { LocationProvider } from './compornent/base/LocationContext';
 import Header from './compornent/base/header';
 
 import TimeLine from './compornent/pages/views/timeline';
-import Home from './compornent/pages/views/location';
+import Home from './compornent/pages/views/home';
 import SignUp from './compornent/pages/views/SignUp';
 import Login from './compornent/pages/views/Login';
 import Write from './compornent/pages/views/kutikomiWrite';

@@ -58,18 +58,20 @@
     text-align: left; /* 左揃え */
 }
 
-
 .add-review-button {
     display: flex;
-    margin-right: 0;
+    justify-content: center; /* 中央揃えにする */
     align-items: center;
+    margin-right: 0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #808080; /* 灰色 */
     border: none;
     cursor: pointer;
-    position: relative; /* プラス記号の位置調整のため */
+    position: fixed; /* ページ内で固定位置にする */
+    right: 20px; /* 右端から20pxの位置に設定 */
+    bottom: 20px; /* 下端から20pxの位置に設定 */
 }
 
 .add-review-button::before, .add-review-button::after {
@@ -81,13 +83,16 @@
 .add-review-button::before {
     height: 2px; /* 縦線の太さ */
     width: 25px; /* 縦線の長さ */
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .add-review-button::after {
     width: 2px; /* 横線の太さ */
     height: 25px; /* 横線の長さ */
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+

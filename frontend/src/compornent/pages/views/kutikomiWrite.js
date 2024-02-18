@@ -18,7 +18,6 @@ function Write() {
 
     useEffect(() => {
         if(!isLoggedIn){
-            alert('ログインしてください')
             navigate('/login');
         }
     },[isLoggedIn,navigate]);
@@ -26,7 +25,7 @@ function Write() {
     const [content, setContent] = useState("");
     const [selectedStation, setSelectedStation] = useState('');
     const { latitude,longitude } = useLocation();
-    const {nearestLocationName} = useLocationContext();
+    //const {nearestLocationName} = useLocationContext();
 
     // 選択された値を更新するハンドラー
     const handleStartChange = (event) => {

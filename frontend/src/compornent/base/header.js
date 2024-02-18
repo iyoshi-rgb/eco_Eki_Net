@@ -18,14 +18,16 @@ function Header() {
             <div className="header-links">
                 {isLoggedIn ? (
                     <ul>
+                        <li className='menu-item'><Link to='/'>Home</Link></li>    
                         <li className='menu-item'><Link to="/" onClick={handleLogout}>ログアウト</Link></li>
                         <li className='menu-item'><Link to="/mypage">マイページ</Link></li>
                     </ul>
                 ) : (
                     <ul>
+                        <li className='menu-item'><Link to='/'>Home</Link></li>
                         <li className='menu-item'><Link to="/signup">新規登録</Link></li>
                         <li className='menu-item'><Link to="/login">ログイン</Link></li>
-                    </ul>
+                    </ul>    
                 )}
             </div>
         </header>

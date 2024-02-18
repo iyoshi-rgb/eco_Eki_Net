@@ -18,6 +18,8 @@ function TimeLine() {
         let endpoint = '/reviews';
     if (selectedButtonText === '烏丸線') {
         endpoint += '?stationCategory=烏丸線';
+    } else if(selectedButtonText === '東西線'){
+        endpoint += '?stationCategory=東西線';
     } else if (selectedButtonText ===  nearestLocationName) {
         endpoint += `?stationName=${encodeURIComponent(nearestLocationName)}`;
     }
@@ -43,7 +45,7 @@ function TimeLine() {
     return (
         <div>
             <div className="button-container">
-                {['総合', '烏丸線', '最寄り駅'].map((text) => (
+                {['総合', '烏丸線','東西線', '最寄り駅'].map((text) => (
                     <button
                         key={text}
                         className={`button ${selectedButtonText === text ? 'selected' : ''}`}
