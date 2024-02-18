@@ -3,6 +3,7 @@ const mysql = require('mysql2');
 
 const bcrypt = require('bcrypt');
 //const axios = require('axios');
+require('dotenv').config();
 
 const app = express();
 
@@ -12,10 +13,10 @@ const datastore = require('./datastore');
 const port = 3001;
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'kiku1634',
-  database: 'eco_Eki_Net'
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
 })
 
 connection.connect(err => {
