@@ -61,14 +61,7 @@ function TimeLine() {
                 {selectedButtonText}
             </div>
         )}
-        <div>
-                {/*<select value={selectedStation} onChange={(e) => setSelectedStation(e.target.value)}>
-                        <option value=''>選択してください</option>
-                        {Object.entries(choice).map(([key, value]) => (
-                            <option key={key} value={value}>{value}</option>
-                        ))}
-                        </select>*/}
-            </div>
+        
         {reviews.length > 0 ? (
         <ul>
         {reviews.map((review, index) => (
