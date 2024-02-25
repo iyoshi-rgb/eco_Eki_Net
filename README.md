@@ -35,9 +35,9 @@
 </ul>
 
 <br>
-<img  border: 1px  src="images/スクリーンショット 2024-02-25 210944.png">
+<kbd><img  border: 1px  src="images/スクリーンショット 2024-02-25 210944.png"></kbd>
 <br><br>
-<img  border: 1px  src="images/スクリーンショット 2024-02-25 212234.png">
+<kbd><img  border: 1px  src="images/スクリーンショット 2024-02-25 212234.png"></kbd>
 
 <br>
 
@@ -48,9 +48,9 @@
     <li>駅を通過したかどうかを判定し、CO2削減量を記録できる。
 </ul>
 
-<img src="images/スクリーンショット 2024-02-25 211038.png">
+<kbd><img src="images/スクリーンショット 2024-02-25 211038.png"></kbd>
 <br><br>
-<img src="images/スクリーンショット 2024-02-25 211052.png">
+<kbd><img src="images/スクリーンショット 2024-02-25 211052.png"></kbd>
 
 <br>
 
