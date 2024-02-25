@@ -1,5 +1,6 @@
 <h1>eco駅NET</h1>
 <p>オープンデータを利用し、地下鉄利用を促し、GXに取り組むアプリです。</p>
+<br>
 <img src="images/スクリーンショット 2024-02-25 210908.png">
 
 <br>
@@ -33,7 +34,10 @@
 
 </ul>
 
+<br>
 <img src="images/スクリーンショット 2024-02-25 210944.png">
+<br>
+<img src="images/スクリーンショット 2024-02-25 212234.png">
 
 <br>
 
@@ -45,7 +49,7 @@
 </ul>
 
 <img src="images/スクリーンショット 2024-02-25 211038.png">
-<img src="images/スクリーンショット 2024-02-25 211052.png">
+<img src="images/スクリーンショット 2024-02-25 212015.png">
 
 <br>
 
@@ -56,4 +60,9 @@
 </ul>
 
 <h3>使用技術</h3>
-<h5>フロントエンド</h5>
+<ul>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>Node.js</li>
+    <li>MySQL</li>
+</ul>
