@@ -1,7 +1,7 @@
 <h1>eco駅NET</h1>
 <p>オープンデータを利用し、地下鉄利用の促進を行い、GXに取り組むアプリです。</p>
 <br>
-<img src="images/スクリーンショット 2024-02-25 210908.png">
+<img border: 1px src="images/スクリーンショット 2024-02-25 210908.png">
 
 <br>
 
@@ -35,9 +35,9 @@
 </ul>
 
 <br>
-<img src="images/スクリーンショット 2024-02-25 210944.png">
+<img  border: 1px  src="images/スクリーンショット 2024-02-25 210944.png">
 <br><br>
-<img src="images/スクリーンショット 2024-02-25 212234.png">
+<img  border: 1px  src="images/スクリーンショット 2024-02-25 212234.png">
 
 <br>
 
@@ -48,9 +48,9 @@
     <li>駅を通過したかどうかを判定し、CO2削減量を記録できる。
 </ul>
 
-<img src="images/スクリーンショット 2024-02-25 211038.png">
+<img border: 1px  src="images/スクリーンショット 2024-02-25 211038.png">
 <br><br>
-<img src="images/スクリーンショット 2024-02-25 211052.png">
+<img border: 1px  src="images/スクリーンショット 2024-02-25 211052.png">
 
 <br>
 
