@@ -1,7 +1,7 @@
 <h1>eco駅NET</h1>
 <p>オープンデータを利用し、地下鉄利用の促進させ、GXに取り組むアプリです。</p>
 <br>
-<kbd><img src="images/スクリーンショット 2024-02-25 210908.png"></kbd>
+<kbd><img width="943" alt="スクリーンショット 2024-02-25 210908" src="https://github.com/iyoshi-rgb/eco_Eki_Net/assets/153269464/b310239d-4c3f-4248-a707-be65cf50b6b2"></kbd>
 
 <br>
 
@@ -35,9 +35,9 @@
 </ul>
 
 <br>
-<kbd><img  border: 1px  src="images/スクリーンショット 2024-02-25 210944.png"></kbd>
+<kbd><img width="945" alt="スクリーンショット 2024-02-25 210944" src="https://github.com/iyoshi-rgb/eco_Eki_Net/assets/153269464/2cbc2ba7-7120-4dbb-b4aa-207b30c8c42d"></kbd>
 <br><br>
-<kbd><img  border: 1px  src="images/スクリーンショット 2024-02-25 212234.png"></kbd>
+<kbd><img width="890" alt="スクリーンショット 2024-02-13 165424" src="https://github.com/iyoshi-rgb/eco_Eki_Net/assets/153269464/38c9b227-0381-4a85-9c88-cb59732a3d05"></kbd>
 
 <br>
 
@@ -48,9 +48,9 @@
     <li>駅を通過したかどうかを判定し、CO2削減量を記録できる。
 </ul>
 
-<kbd><img src="images/スクリーンショット 2024-02-25 211038.png"></kbd>
+<kbd><img width="949" alt="スクリーンショット 2024-02-25 211038" src="https://github.com/iyoshi-rgb/eco_Eki_Net/assets/153269464/4f792f31-c13f-4eb1-8c45-31474c3a85c4"></kbd>
 <br><br>
-<kbd><img src="images/スクリーンショット 2024-02-25 211052.png"></kbd>
+<kbd><img width="948" alt="スクリーンショット 2024-02-25 211052" src="https://github.com/iyoshi-rgb/eco_Eki_Net/assets/153269464/9d4586bd-27f7-4bf3-9680-bc5e5cc6a869"></kbd>
 
 <br>
 
